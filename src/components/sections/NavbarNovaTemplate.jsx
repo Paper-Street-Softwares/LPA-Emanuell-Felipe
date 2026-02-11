@@ -87,8 +87,8 @@ function NavbarNovaTemplate({
           <div
             className={`flex flex-col z-20 relative  ${
               isScrolled
-                ? 'w-[40%] tablet1:w-[30%] tablet2:w-[20%] desktop1:w-[20%] transition-all duration-700'
-                : 'py-3 w-[60%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[30%] transition-all duration-700'
+                ? 'w-[40%] tablet1:w-[30%] tablet2:w-[20%] desktop1:w-[15%] transition-all duration-700'
+                : 'py-3 w-[50%] tablet1:w-[40%] tablet2:w-[30%] desktop1:w-[20%] transition-all duration-700'
             }`}
           >
             <a
